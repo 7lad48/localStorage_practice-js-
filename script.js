@@ -8,7 +8,7 @@ let pageData = {
         boring: 'red.png',
         static: 'none.png'
     }
-}
+} 
 document.getElementById('red').addEventListener('click', function() {
     document.querySelector('body').style.backgroundColor = pageData.bgcolor.red
     localStorage.setItem('bgcolor', JSON.stringify(pageData.bgcolor.red))
